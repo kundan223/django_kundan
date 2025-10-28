@@ -105,6 +105,11 @@ Minor features
 * The default iteration count for the PBKDF2 password hasher is increased from
   1,200,000 to 1,500,000.
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 :mod:`django.contrib.contenttypes`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
